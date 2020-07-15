@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quizz2"
+    android:orientation="vertical"
+    android:padding="35dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:src="@drawable/quiz22" />
+    <TextView
+        android:id="@+id/text_view_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La marge au sol m'aide a evaluer l'espace de sécurité ?"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EtRep3"
+            android:text="OUI"/>
+
+        <RadioButton
+            android:id="@+id/EtRep4"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="NON" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/EtNext1"/>
+
+
+</LinearLayout>
